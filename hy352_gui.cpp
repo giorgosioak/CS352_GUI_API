@@ -1,6 +1,6 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
-#include "allegro5/allegro_image.h"
+#include <allegro5/allegro_image.h>
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
 
@@ -34,8 +34,8 @@
 
 using namespace ::std;
 
-Color_pallete SCREEN_COLOR;
-Color_pallete PEN_COLOR;
+ColorPalette SCREEN_COLOR;
+ColorPalette PEN_COLOR;
 
 const int SCREEN_W = 1024;
 const int SCREEN_H = 720;

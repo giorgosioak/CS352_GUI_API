@@ -2,7 +2,7 @@
 using namespace ::std;
 
 // Collor in rgb value
-class Color_pallete
+class ColorPalette
 {
 public:
   unsigned red;
@@ -23,7 +23,7 @@ class Shape
 {
 public:
   unsigned thickness;
-  Color_pallete color;
+  ColorPalette color;
   bool draw;
   virtual string getName() = 0;
 };
