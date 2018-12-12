@@ -1,7 +1,7 @@
 CS-352 Project - Logo GUI
 =========================
 
-API definition and implemention for using Allegro 5 in CS-352 Project.
+API definition and implementation for using Allegro 5 in CS-352 Project.
 
 
 ## Windows
