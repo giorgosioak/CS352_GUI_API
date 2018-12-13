@@ -84,13 +84,13 @@ Moves the turtle `n` steps backwards in the current direction without altering t
 int turtle_mv_backward(float n);
 ```
 
-The turtle draws a label at its current position.
+Draws a label at the current position of the turtle.
 
 ```cpp
 int turtle_draw_label(const char* text);
 ```
 
-The turtle draws a circle with radius `r` centered at `(x,y)`, where `x` and `y` are the current coordinates of the turtle.
+Draws a circle with radius `r` centered at `(x,y)`, where `x` and `y` are the current coordinates of the turtle.
 
 Note that `(0,0)` is the top-left corner of the screen.
 
