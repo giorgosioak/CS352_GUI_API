@@ -2,66 +2,66 @@
 using namespace ::std;
 
 // Collor in rgb value
-class ColorPalette
+class Color_pallete
 {
 public:
-  unsigned red;
-  unsigned green;
-  unsigned blue;
+	unsigned red;
+	unsigned green;
+	unsigned blue;
 };
 
 // Point in canvas/display
 class Point
 {
 public:
-  unsigned x;
-  unsigned y;
+	unsigned x;
+	unsigned y;
 };
 
 // Abstract class, represent the notion of a graphic element
 class Shape
 {
 public:
-  unsigned thickness;
-  ColorPalette color;
-  bool draw;
-  virtual string getName() = 0;
+	unsigned thickness;
+	Color_pallete color;
+	bool draw;
+	virtual string getName() = 0;
 };
 
 // Circle with center and radius
 class Circle : public Shape
 {
 public:
-  Point center;
-  unsigned radius;
-  string getName()
-  {
-    return "Circle";
-  };
+	Point center;
+	unsigned radius;
+	string getName()
+	{
+		return "Circle";
+	};
 };
 
 // Line between points start and end
 class Line : public Shape
 {
 public:
-  Point start;
-  Point end;
-  string getName()
-  {
-    return "Line";
-  };
+	Point start;
+	Point end;
+	string getName()
+	{
+		return "Line";
+	};
 };
 
 // Label in a specific point
 class Label : public Shape
 {
 public:
-  char *text;
-  Point point;
-  string getName()
-  {
-    return "Label";
-  };
+	char *text;
+	Point point;
+	string getName()
+	{
+		return "Label";
+	};
 };
 
 // Rotate turtle by d degrees relatively to current turtle direction

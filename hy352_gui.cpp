@@ -1,6 +1,6 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
-#include <allegro5/allegro_image.h>
+#include "allegro5/allegro_image.h"
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
 
@@ -30,12 +30,12 @@
 #define Sleep(X) this_thread::sleep_for(chrono::milliseconds(X * 1000));
 #endif
 
-#define DELAY_PER_REDRAW 10000
+#define DELAY_PER_REDRAW 100
 
 using namespace ::std;
 
-ColorPalette SCREEN_COLOR;
-ColorPalette PEN_COLOR;
+Color_pallete SCREEN_COLOR;
+Color_pallete PEN_COLOR;
 
 const int SCREEN_W = 1024;
 const int SCREEN_H = 720;
@@ -344,7 +344,7 @@ int turtle_draw_label(char const *text)
 	t->color = PEN_COLOR;
 
 	t->text = new char[strlen(text) + 1]{};
-	strcpy(t->text, text);
+	strcpy_s(t->text, strlen(text) + 1, text);
 	path.push_back(t);
 
 	redraw_now();
