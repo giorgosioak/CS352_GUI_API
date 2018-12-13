@@ -34,6 +34,26 @@ Build and run using Visual Studio.
 
 ## Linux
 
+#### Install Allegro
+
+##### Ubuntu 18.04+
+
+```sh
+sudo apt install liballegro*5.2 liballegro*5-dev
+```
+
+##### Fedora
+
+```sh
+sudo dnf install allegro5*
+```
+
+##### Other distros
+
+Search with your package manager for a binary package or build from source, if none is available.
+
+#### Compiling from terminal
+
 ```sh
 g++ -std=c++11 hy352_gui.cpp example.cpp -o hy352_demo $(pkg-config --libs allegro-5 allegro_image-5 allegro_primitives-5 allegro_font-5 allegro_ttf-5)
 ```
@@ -62,3 +82,8 @@ clang++ -std=c++11 hy352_gui.cpp example.cpp -o hy352_demo -lallegro -lallegro_p
 #### Using Xcode
 
 Open `./projects/xcode/LogoGUI.xcodeproj`.
+
+
+## Resources
+
+* [Getting Started with Allegro - Allegro Wiki](https://wiki.allegro.cc/index.php?title=Getting_Started)
