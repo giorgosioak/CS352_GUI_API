@@ -8,6 +8,29 @@ API definition and implementation for using Allegro 5 in HY352 Project.
 
 Build and run using Visual Studio.
 
+#### Create an empty project
+
+* Open the project creation dialog (**File → New → Project...**).
+* Opt for an empty project (**Visual C++ → General → Empty Project**).
+
+#### Install Allegro using NuGet
+
+* Right-click on your project and select **Manage NuGet Packages**.
+* Go to the **Browse** tab and search for **Allegro** using the search bar.
+* Locate **Allegro 5** package and press **Install**.
+
+#### Configure Allegro
+
+* Right-click on your project and select **Properties**.
+* Select **Allegro 5** and set the **Library type** to **Dynamic Debug - Dynamic Runtime**.
+* Now enable the required **Add-ons**:
+    * **Image**
+    * **Font**
+    * **TrueType Font**
+    * **Primitives**
+    * **Color Addons**
+* Hit the **Apply** button.
+
 
 ## Linux
 
