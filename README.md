@@ -1,7 +1,13 @@
 HY352 Project - Logo GUI
-=========================
+========================
 
-API definition and implementation for using Allegro 5 in HY352 Project.
+---
+
+**This file contains instructions for installing Allegro and building the demo project.**
+
+**For API definition and usage, see [Documentation.md](Documentation.md).**
+
+---
 
 
 ## Windows
@@ -50,7 +56,7 @@ sudo dnf install allegro5*
 
 ##### Other distros
 
-Search with your package manager for a binary package or build from source, if none is available.
+Search with your package manager for a binary package or build from source, if none is available (see **Getting Started** guide at the bottom of this page).
 
 #### Compiling from terminal
 
