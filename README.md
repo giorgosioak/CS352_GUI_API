@@ -10,8 +10,8 @@ Build and run using Visual Studio.
 
 #### Create an empty project
 
-* Open the project creation dialog (**File → New → Project...**).
-* Opt for an empty project (**Visual C++ → General → Empty Project**).
+* Open the project creation dialog: **File → New → Project...**
+* Opt for an empty project: **Visual C++ → General → Empty Project**
 
 #### Install Allegro using NuGet
 
