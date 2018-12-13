@@ -1,11 +1,10 @@
 HY352 Project - Logo GUI
 ========================
 
----
 
 **This file contains instructions for installing Allegro and building the demo project.**
 
-**For API definition and usage, see [Documentation.md](Documentation.md).**
+**For the API guide, see [Documentation.md](Documentation.md).**
 
 ---
 

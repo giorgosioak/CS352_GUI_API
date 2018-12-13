@@ -1,8 +1,5 @@
-HY352 Project - Logo GUI
-========================
-
-
-## API Definition
+API Definition
+==============
 
 ### GUI Management
 
@@ -135,17 +132,17 @@ int show_debug_message(const char* message);
 Defines the number of pi.
 
 ```cpp
-#define PI
+PI
 ```
 
 Converts the given number of degrees to radians.
 
 ```cpp
-#define degreesToRadians(angleDegrees)
+degreesToRadians(angleDegrees)
 ```
 
 Converts the given number of radians to degrees.
 
 ```cpp
-#define radiansToDegrees(angleRadians)
+radiansToDegrees(angleRadians)
 ```
