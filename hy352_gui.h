@@ -1,3 +1,6 @@
+#ifndef HY352_GUI_H
+#define HY352_GUI_H
+
 #include <string>
 using namespace ::std;
 
@@ -120,3 +123,5 @@ void wait(unsigned s);
 
 // Converts radians to degrees.
 #define radiansToDegrees(angleRadians) (angleRadians * 180.0 / PI)
+
+#endif
